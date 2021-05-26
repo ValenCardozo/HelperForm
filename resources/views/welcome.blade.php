@@ -14,6 +14,10 @@
                     <div id="app">
                         <example-component></example-component>
                     </div>
+
+                    <div id="header">
+                        <header-component></header-component>
+                    </div>
                 </div>
 
                 </div>

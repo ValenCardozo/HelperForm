@@ -37,3 +37,9 @@ Vue.component('test-component', require('./components/TestComponent.vue').defaul
 const test = new Vue({
     el: '#test',
 });
+
+Vue.component('header-component', require('./components/Header.vue').default);
+
+const header = new Vue({
+    el: '#header',
+});
